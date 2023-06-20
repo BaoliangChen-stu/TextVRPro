@@ -5,6 +5,7 @@ TextVR at video level.Then,we use CLIP to match the captions and video during te
 
 ## Step1: Train TextVR Model in Video Folder
 1.1 Prepare the environment, data, and model according to official instructions for TextVR 
+
 `python train.py -c configs/TextVR_fusion.json
 `
 
