@@ -11,7 +11,7 @@ TextVR at video level.Then,we use CLIP to match the captions and video during te
 
 1.2 Inference TextVR 
 
-python `test.py -c configs/TextVR_fusion.json -r ckpt/textvr.pth --sim_path sim_matrix.npy`
+`python test.py -c configs/TextVR_fusion.json -r ckpt/textvr.pth --sim_path sim_matrix.npy`
 
 ## Step2: Convert test data into images
 2.1 The code for convert Video to Image in `videoUtils.py`
